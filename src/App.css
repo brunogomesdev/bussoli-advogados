@@ -1,27 +1,17 @@
 #root {
-  max-width: 1280px;
+  width: 100%;
+  height: 100%;
   margin: 0 auto;
-  padding: 2rem;
+  padding: 0 auto;
   text-align: center;
-}
-
-.logo {
-  height: 6em;
-  padding: 1.5em;
-  will-change: filter;
-  transition: filter 300ms;
-}
-.logo:hover {
-  filter: drop-shadow(0 0 2em #646cffaa);
-}
-.logo.react:hover {
-  filter: drop-shadow(0 0 2em #61dafbaa);
+  background-color: #2b2b2b;
 }
 
 @keyframes logo-spin {
   from {
     transform: rotate(0deg);
   }
+
   to {
     transform: rotate(360deg);
   }
@@ -33,10 +23,137 @@
   }
 }
 
-.card {
-  padding: 2em;
+.main-header {
+  width: 100%;
+  margin: 0 auto;
+  background-color: black;
+  position: fixed;
+
+
+  .header {
+    max-width: 1280px;
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+    padding: 20px 0;
+  }
+
+  .logo {
+    display: flex;
+
+    img {
+      width: 170px;
+    }
+  }
+
+  .menu {
+    display: flex;
+
+    .menu-itens {
+      padding: 0 20px;
+      color: white;
+    }
+  }
 }
 
-.read-the-docs {
-  color: #888;
+.main-destaque {
+  width: 100%;
+  margin: 0 auto;
+
+  .destaque {
+    width: 100%;
+    margin: 0 auto;
+
+    img {
+      width: 100%;
+      height: auto;
+    }
+  }
+}
+
+.main-atuacao {
+  width: 100%;
+  margin: 0 auto;
+  background-color: white;
+
+  .atuacao {
+    max-width: 1280px;
+    background-color: white;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+    padding: 20px 0;
+
+    .atuacao-list {
+      width: 30%;
+      box-sizing: border-box;
+    }
+  }
+}
+
+.main-parceiros {
+  width: 100%;
+  margin: 0 auto;
+  background-color: white;
+
+  .parceiros {
+    max-width: 1280px;
+    background-color: white;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+    padding: 20px 0;
+  }
+
+  p {
+    color: rgb(51, 51, 51);
+  }
+}
+
+.main-advogados {
+  width: 100%;
+  margin: 0 auto;
+  background-color: white;
+
+  .advogados {
+    max-width: 1280px;
+    background-color: white;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+    padding: 20px 0;
+
+    p {
+      color: rgb(51, 51, 51);
+    }
+  }
+}
+
+.main-contato {
+  width: 100%;
+  margin: 0 auto;
+  background-color: white;
+
+  .contato {
+    max-width: 1280px;
+    background-color: white;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+    padding: 20px 0;
+
+    p {
+      color: rgb(51, 51, 51);
+    }
+  }
 }
