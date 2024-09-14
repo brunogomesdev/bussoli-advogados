@@ -1,6 +1,6 @@
 import { useState } from 'react'
 import logoBussoli from './assets/logo-bussoli.png'
-import destaqueBussoli from './assets/destaque.jpeg'
+import destaqueBussoli from './assets/destaque.jpg'
 import './App.css'
 
 function App() {
