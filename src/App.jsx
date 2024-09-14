@@ -1,6 +1,7 @@
 import { useState } from 'react'
 import logoBussoli from './assets/logo-bussoli.png'
 import destaqueBussoli from './assets/destaque.jpg'
+import logoLampada from './assets/logo-cabecadelampada.png'
 import './App.css'
 
 function App() {
@@ -37,27 +38,39 @@ function App() {
         </div>
         <div className="atuacao">
           <div className="atuacao-list">
-            <p>Atuação 01</p>
+            <p>Cível</p>
             <div>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s</div>
           </div>
           <div className="atuacao-list">
-            <p>Atuação 02</p>
+            <p>Empresarial</p>
             <div>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s</div>
           </div>
           <div className="atuacao-list">
-            <p>Atuação 03</p>
+            <p>Imobiliário</p>
             <div>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s</div>
           </div>
           <div className="atuacao-list">
-            <p>Atuação 04</p>
+            <p>Família e Sucessões</p>
             <div>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s</div>
           </div>
           <div className="atuacao-list">
-            <p>Atuação 05</p>
+            <p>Consumidor</p>
             <div>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s</div>
           </div>
           <div className="atuacao-list">
-            <p>Atuação 06</p>
+            <p>Criminal</p>
+            <div>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s</div>
+          </div>
+          <div className="atuacao-list">
+            <p>Trabalhista</p>
+            <div>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s</div>
+          </div>
+          <div className="atuacao-list">
+            <p>Desportiva</p>
+            <div>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s</div>
+          </div>
+          <div className="atuacao-list">
+            <p>Tributária</p>
             <div>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s</div>
           </div>
         </div>
@@ -76,16 +89,12 @@ function App() {
         </div>
         <div className="advogados">
           <div className="advogados-list">
-            <p>Advogado 01</p>
-            <div>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s</div>
+            <p>Evandro Colombo Bussoli</p>
+            <div>OAB/SP 324.402</div>
           </div>
           <div className="advogados-list">
-            <p>Advogado 02</p>
-            <div>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s</div>
-          </div>
-          <div className="advogados-list">
-            <p>Advogado 03</p>
-            <div>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s</div>
+            <p>Heraldo Goreti Bussoli</p>
+            <div>OAB/SP 154.296</div>
           </div>
         </div>
       </div>
@@ -100,15 +109,10 @@ function App() {
       <div className="main-rodape">
         <div className="rodape">
           <div className="logo">
+            <p>Site desenvolvido por:</p>
             <a href="https://vitejs.dev" target="_blank">
-              <img src={logoBussoli} className="logo" alt="Vite logo" />
+              <img src={logoLampada} className="logo" alt="Vite logo" />
             </a>
-          </div>
-          <div className="menu">
-            <div className="menu-itens">ATUAÇÃO</div>
-            <div className="menu-itens">PARCEIROS</div>
-            <div className="menu-itens">ADVOGADOS</div>
-            <div className="menu-itens">CONTATO</div>
           </div>
         </div>
       </div>
