@@ -26,10 +26,10 @@ function App() {
       };
 
     emailjs.send(
-      'service_meopeyv',
-      'template_uplkxq9',
+      'service_g5c0etf',
+      'template_7if20z8',
       templateParams,
-      'QFWOPnNvYC3XRH5xU'
+      '6E_Ut2bD8b9OAhCvr'
     )
       .then((result) => {
         console.log(result.text);
@@ -64,7 +64,7 @@ function App() {
             <ul>
               {/* <li><a href="#" onClick={() => handleClick(destaqueRef)} className="menu-itens">PRINCIPAL</a></li> */}
               <li><a href="#" onClick={() => handleClick(atuacaoRef)} className="menu-itens">ATUAÇÃO</a></li>
-              <li><a href="#" onClick={() => handleClick(parceirosRef)} className="menu-itens">PARCEIROS</a></li>
+              <li><a href="#" onClick={() => handleClick(parceirosRef)} className="menu-itens">QUEM SOMOS</a></li>
               <li><a href="#" onClick={() => handleClick(advogadosRef)} className="menu-itens">ADVOGADOS</a></li>
               <li><a href="#" onClick={() => handleClick(contatoRef)} className="menu-itens">CONTATO</a></li>
             </ul>
@@ -124,8 +124,17 @@ function App() {
 
       <section id="main-parceiros" ref={parceirosRef}>
         <div className="parceiros">
-          <p className="tit-parceiros">Parceiros</p>
-          <p className="txt-parceiros">Nossa equipe de advogados é composta por profissionais altamente qualificados e especializados em diversas áreas do Direito. Além disso, contamos com uma rede de parceiros estratégicos, escritórios e profissionais renomados em seus respectivos campos. Essa parceria nos permite oferecer aos nossos clientes soluções jurídicas completas e personalizadas, com a mais alta qualidade e eficiência. Ao unirmos nossos conhecimentos e experiências, garantimos que cada caso seja analisado de forma integral e estratégica, buscando sempre o melhor resultado para nossos clientes.</p>
+          <p className="tit-parceiros">Quem Somos</p>
+          <p className="txt-parceiros">O escritório Bussoli Advogados Associados está localizado no bairro de Pinheiros, na zona
+            oeste da capital de São Paulo.<br /><br />Trata-se de um escritório preponderantemente boutique, com advocacia especializada,
+            estrutura física reduzida e atendimento pessoal e personalizado.<br /><br />A missão do escritório é solucionar com eficiência os litígios de nossos clientes, sendo esse
+            atendimento feito diretamente pelo sócio da área, tratando cada cliente com a sua devida
+            exclusividade.<br /><br />Somos uma equipe técnica e amplamente capacitada, com especialização em diversas áreas do
+            direito, tudo isso para lhe proporcionar o melhor atendimento e solucionar com rapidez o
+            problema dos clientes.<br /><br />Atuamos de forma consultiva e contenciosa, bem como na resolução de conflitos extrajudiciais
+            e judiciais, nas mais diversas áreas do direito, sempre visando o atendimento com agilidade e
+            melhor custo benefício ao cliente.<br /><br />Nossa preocupação é sempre no sentido de resolução dos problemas dos clientes, bem como
+            proporcionando o melhor custo benefício.</p>
         </div>
       </section>
 
@@ -136,11 +145,11 @@ function App() {
         <div className="advogados">
           <div className="advogados-list">
             <p>Evandro Colombo Bussoli</p>
-            <div>OAB/SP 324.402</div>
+            <div>Graduado em direito pela Universidade Nove de Julho, no ano de 2009.<br />Pós-graduado em Direito Civil e Processo Civil pela Escola Paulista de Direito (EPD), no ano de 2014.<br />Pós-graduado em Direito Tributário pela Faculdade Legale, no ano de 2017.<b><br />OAB/SP 324.402</b></div>
           </div>
           <div className="advogados-list">
             <p>Heraldo Goreti Bussoli</p>
-            <div>OAB/SP 154.296</div>
+            <div>Graduado em direito pela Universidade Brás Cubas, no ano de 1997.<br />Pós-graduado em Direito Civil e Processo Civil pela Faculdade Legale, no ano de 2017.<br /><b>OAB/SP 154.296</b></div>
           </div>
         </div>
       </section>
