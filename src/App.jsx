@@ -179,7 +179,7 @@ function App() {
               <img src={logoInsta} className="logo-rodape-insta" alt="Instagram" />
             </a>
           </div>
-          <div className="logo">
+          <div className="logo-cabeca">
             <p>Criação e<br />Desenvolvimento:</p>
             <a href="https://www.instagram.com/clampada_1988/" target="_blank">
               <img src={logoLampada} className="logo-rodape" alt="Cabeça de Lâmpada" />

@@ -310,7 +310,7 @@
     align-items: center;
     margin: 0 auto;
 
-    .logo {
+    .logo-cabeca {
       display: flex;
       align-items: center;
 
@@ -328,6 +328,98 @@
     }
 
 
+  }
+
+}
+
+
+@media (max-width: 768px) {
+  #root {
+    width: 100%;
+    background-color: white;
+  }
+
+  #main-header {
+    width: 100%;
+
+    .header {
+      width: 100%;
+
+      .logo {
+        padding-left: 10px;
+        width: 90%;
+      }
+
+      .menu {
+        ul {
+          display: flex;
+          flex-direction: column;
+          line-height: 30px;
+          text-align: right;
+
+          li {
+            a {
+              font-weight: normal;
+            }
+
+          }
+        }
+      }
+    }
+  }
+
+  #main-atuacao {
+    .atuacao {
+      .atuacao-list {
+        width: 100%;
+      }
+    }
+  }
+
+  #main-parceiros {
+    width: 100%;
+    margin: 0 auto;
+    background-image: url(./assets/parceiros.jpg);
+  }
+
+  #main-advogados {
+    .advogados {
+      .advogados-list {
+        width: 100%;
+      }
+    }
+  }
+
+  #main-contato {
+    .contato {
+      flex-direction: column;
+
+      .contato-mapa {
+        width: 100%;
+      }
+
+      .contato-dados {
+        width: 90%;
+        text-align: center;
+        padding: 5% 0;
+
+        .contato-form {
+          form {
+            width: 100%;
+          }
+        }
+      }
+    }
+  }
+
+  #main-rodape {
+    .logo-insta {
+      padding-left: 10px;
+    }
+
+    .logo-cabeca {
+      padding-right: 10px;
+    }
   }
 
 }
