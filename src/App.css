@@ -347,19 +347,23 @@
 
       .logo {
         padding-left: 10px;
-        width: 90%;
+        width: 70%;
       }
 
       .menu {
+        width: 50%;
+
         ul {
           display: flex;
           flex-direction: column;
           line-height: 30px;
-          text-align: right;
+          text-align: left;
+          width: auto;
 
           li {
             a {
               font-weight: normal;
+              font-size: 10px;
             }
 
           }
